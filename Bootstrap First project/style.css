@@ -1,0 +1,102 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.header{
+  background: #B7ADB6;
+}
+
+.header img{
+  width: 130px;
+  height:auto;
+  margin-top: 5px;
+}
+
+.header ul{
+  text-align: right;
+}
+.header ul li{
+  display: inline-block;
+  margin-top: 25px;
+}
+.header ul li a{
+   padding: 10px 30px;
+   color: #00456F;
+   text-decoration: none;
+   border-right: 1px solid #00456F;
+   line-height: 20px;
+}
+.header ul li a:hover{
+   color: #F97C00;
+}
+/* banner area */
+
+.banner{
+  background-image: url(img/back.jpg);
+  padding: 200px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about{
+  background: #fff;
+  color: #333;
+}
+.about p{
+  font-size: 18px;
+}
+
+/* service area */
+
+.service{
+  background: #A09AA0;
+}
+img{
+  max-width: 100%;
+}
+.product_itme p{
+  font-size: 18px;
+}
+
+
+.contant-right ul{
+  list-style: none;
+  padding-left: 0;
+}
+.contant-right ul li{
+  background: #f7f7f7;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+.footer{
+  background: #00456F;
+  color: #fff;
+}
+.footer p{
+  margin-bottom: 0;
+}
+.footer a{
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+
+/* ==========responsive========= */
+@media (max-width:576px){
+.header img {
+    margin: 5px 200px;
+}
+.header ul {
+    text-align: center;
+    margin-right: 35px;
+}
+.header ul li a {
+    padding: 10px 5px;
+}
+.about p {
+    font-size: 16px;
+}
+}
